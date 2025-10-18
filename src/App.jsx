@@ -1,9 +1,8 @@
-
 import Taskform from "./components/Taskform";
 import TaskList from "./components/TaskList";
-import Progresstracker from "./components/Progresstracker";
+import Progresstracker from "./components/ProgressTracker";
 import { useEffect, useState } from "react";
-
+import './Style.css';
 export default function App() {
   const [tasks, setTasks] = useState([]);
 
@@ -30,7 +29,9 @@ export default function App() {
     setTasks(tasks.filter((_, i) => i != index));
   }
 
-  
+  const clearAll = () => {
+      setTasks([]);
+  }
 
   return(
     <div>
@@ -38,8 +39,8 @@ export default function App() {
       <p>Our friendly TaskManager</p>
       <Taskform addTask = {addTask}/>
       <TaskList tasks = {tasks} updateTask = {updateTask} deleteTask = {deleteTask}/>
-      <Progresstracker />
-      <button>Clear all tasks</button>
+      <Progresstracker tasks = {tasks}/>
+      <button className="clearAll" onClick={() => clearAll()}>Clear all tasks</button>
     </div>
   )
 }
