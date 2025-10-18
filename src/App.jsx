@@ -40,7 +40,8 @@ export default function App() {
       <Taskform addTask = {addTask}/>
       <TaskList tasks = {tasks} updateTask = {updateTask} deleteTask = {deleteTask}/>
       <Progresstracker tasks = {tasks}/>
-      <button className="clearAll" onClick={() => clearAll()}>Clear all tasks</button>
+      {tasks.length>0 && (
+      <button className="clearAll" onClick={() => clearAll()}>Clear all tasks</button>)}
     </div>
   )
 }
