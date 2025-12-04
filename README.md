@@ -1,16 +1,70 @@
-# React + Vite
+# 📝 Task Focus – React Task Manager App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Task Focus** is a simple and efficient task management application built using **React**.  
+This project was created to practice core React concepts such as components, props, state management, controlled inputs, and list rendering.
 
-Currently, two official plugins are available:
+🔗 Live Demo:  
+https://chandu-hj.github.io/task-focus/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ⭐ Features
+- Add new tasks  
+- Mark tasks as completed  
+- Delete tasks  
+- Clean and minimal UI  
+- Responsive design  
+- Built using pure React (no external state libraries)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Technologies Used
+- **React**  
+- **JavaScript (ES6+)**  
+- **HTML5**  
+- **CSS3**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Project Structure
+task-focus/  
+│── src/  
+│   ├── components/  
+│   ├── App.js  
+│   ├── index.js  
+│── public/  
+│── package.json  
+└── README.md  
+
+---
+
+## 🎯 React Concepts Practiced
+- Functional components  
+- useState hook  
+- Props & component communication  
+- Rendering lists  
+- Handling form inputs  
+- Conditional rendering  
+- Managing UI state  
+- Basic component styling
+
+---
+
+## 📚 What I Learned
+- Building component-based UIs  
+- Updating and managing state  
+- Handling events in React  
+- Mapping and filtering arrays  
+- Creating clean and reusable components  
+- Deploying React apps to GitHub Pages
+
+---
+
+
+## 🙌 Acknowledgements
+Built for learning and practicing **React fundamentals**.
+
+---
+
+## 📬 Contact
+**GitHub:** https://github.com/Chandu-HJ
